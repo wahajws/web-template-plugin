@@ -1,0 +1,62 @@
+{
+  "address": [
+    {
+      "Company": "One Two Three Sdn Bhd",
+      "type": "home",
+      "street": "123 Main Street",
+      "city": "Kuala Lumpur",
+      "state": "WP Kuala Lumpur",
+      "postal_code": "50000",
+      "country": "Malaysia",
+      "is_primary": true,
+      "is_billing": true,
+      "is_shipping": false,
+      "latitude": 3.139,
+      "longitude": 101.6869,
+      "google_place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+      "google_street_map_url": "https://www.google.com/maps/place/123+Main+Street,+Kuala+Lumpur,+Malaysia",
+      "contact": [
+        {
+          "contact_name": "John Doe",
+          "type": "mobile",
+          "number": "+60 12-345 6789",
+          "email": "johndoe@example.com",
+          "is_primary": true
+        },
+        {
+          "contact_name": "John Doe",
+          "phone_type": "home",
+          "phone_number": "+60 3-1234 5678",
+          "email": "johndoe@example.com",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "Company": "Tech Solutions Sdn Bhd",
+      "type": "work",
+      "street": "456 Corporate Tower Road",
+      "city": "Petaling Jaya",
+      "state": "Selangor",
+      "postal_code": "46350",
+      "country": "Malaysia",
+      "is_primary": false,
+      "is_billing": false,
+      "is_shipping": false,
+      "latitude": 3.107,
+      "longitude": 101.6068,
+      "google_place_id": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+      "google_street_map_url": "https://www.google.com/maps/place/456+Corporate+Tower+Road,+Petaling+Jaya,+Malaysia",
+      "contact": [
+        {
+          "contact_name": "Tech Solutions Sdn Bhd",
+          "phone_type": "mobile",
+          "phone_number": "+60 12-987 6543",
+          "email": "info@techsolutions.com",
+          "is_primary": true
+        }
+      ]
+    }
+  ]
+}
+

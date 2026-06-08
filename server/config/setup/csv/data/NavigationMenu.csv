@@ -1,0 +1,10 @@
+parentId,menuText,menuDescription,url,icon,orderIndex
+0,Dashboard,Dashboard,/admin/dashboard,layout-dashboard,01-01
+0,Company Management,Company Management,/admin/company,building,01-02
+0,Navigation Menus,Navigation Menus,/admin/navigation-menu,menu-icon,01-03
+0,Menu Configuration,Menu Configuration,/admin/menu-config,settings-2,01-04
+0,Role Management,Role Management,/admin/role-management,globe,01-05
+0,User Management,User Management,/admin/user-management,user-cog,01-06
+0,User Permissions,User Permissions,/admin/user-permission,file-lock-2,01-07
+0,Static Data Management,Static Data Management,/admin/static-data,magnet,01-08
+0,Site Setting,Site settings,/admin/settings,settings,01-09

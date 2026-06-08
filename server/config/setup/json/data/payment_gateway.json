@@ -1,0 +1,215 @@
+{
+  "payment_gateway": { 
+    "2Checkout": {
+      "provider": "2Checkout",
+      "account_number": "1234567890",
+      "secret_key": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "paypal"],
+      "test_mode": true 
+    },
+    "Adyen": {
+      "provider": "Adyen",
+      "api_key": "AQAB1234567890abcdef",
+      "merchant_account": "YourMerchantAccount",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "mobile_wallet"],
+      "test_mode": true 
+    },
+    "Afterpay": {
+      "provider": "Afterpay",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "afterpay_account"],
+      "test_mode": true 
+    },
+    "Alipay": {
+      "provider": "Alipay",
+      "app_id": "2014072300007148",
+      "private_key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDq1Zt+Xy2mX7",
+      "public_key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDq1Zt+Xy2mX7",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "CNY",
+      "payment_methods": ["alipay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Amazon Pay": {
+      "provider": "Amazon Pay",
+      "merchant_id": "A2EUQ1WTGCTBG2",
+      "access_key": "AKIAIOSFODNN7EXAMPLE",
+      "secret_key": "1234567890abcdef1234567890abcdef12345678",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["amazon_pay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Apple Pay": {
+      "provider": "Apple Pay",
+      "merchant_id": "merchant.com.example",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["apple_pay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Authorize.Net": {
+      "provider": "Authorize.Net",
+      "api_login_id": "1234567890abcdef",
+      "transaction_key": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "echeck"],
+      "test_mode": true 
+    },
+    "Braintree": {
+      "provider": "Braintree",
+      "merchant_id": "1234567890abcdef",
+      "public_key": "AbcdEfghIjklMnopQrstuVwXyZ1234567890",
+      "private_key": "EfgHiJklMnopQrstuVwXyZ1234567890Abcd",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "paypal"],
+      "test_mode": true 
+    },
+    "Google Pay": {
+      "provider": "Google Pay",
+      "merchant_id": "01234567890123456789",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["google_pay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Instamojo": {
+      "provider": "Instamojo",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "INR",
+      "payment_methods": ["card", "netbanking", "upi"],
+      "test_mode": true 
+    },
+    "Klarna": {
+      "provider": "Klarna",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "EUR",
+      "payment_methods": ["card", "bank_transfer", "klarna_account"],
+      "test_mode": true 
+    },
+    "Mollie": {
+      "provider": "Mollie",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "EUR",
+      "payment_methods": ["card", "bank_transfer", "paypal"],
+      "test_mode": true 
+    },
+    "Neteller": {
+      "provider": "Neteller",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "neteller_wallet"],
+      "test_mode": true 
+    },
+    "PayPal": {
+        "provider": "PayPal",
+        "client_id": "AbcdEfghIjklMnopQrstuVwXyZ1234567890",
+        "client_secret": "EfgHiJklMnopQrstuVwXyZ1234567890Abcd",
+        "webhook_id": "WH-1234567890abcdef",
+        "currency": "USD",
+        "payment_methods": ["paypal", "credit_card"],
+        "test_mode": true 
+    },
+    "Paystack": {
+        "provider": "Paystack",
+        "public_key": "PAYSTACK_PUBLIC_KEY",
+        "secret_key": "PAYSTACK_SECRET_KEY",
+        "webhook_secret": "whsec_1234567890abcdef",
+        "currency": "NGN",
+        "payment_methods": ["card", "bank_transfer", "mobile_money"],
+        "test_mode": true 
+    },
+    "Paytm": {
+      "provider": "Paytm",
+      "merchant_id": "1234567890",
+      "merchant_key": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "INR",
+      "payment_methods": ["card", "netbanking", "upi"],
+      "test_mode": true 
+    },  
+    "PayU": {
+      "provider": "PayU",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "mobile_wallet"],
+      "test_mode": true 
+    },
+    "Razorpay": {
+        "provider": "Razorpay",
+        "key_id": "rzp_test_1a2b3c4d5e6f7g8h9i0j",
+        "key_secret": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+        "webhook_secret": "whsec_1234567890abcdef",
+        "currency": "INR",
+        "payment_methods": ["card", "netbanking", "upi"],
+        "test_mode": true 
+    },
+    "Samsung Pay": {
+      "provider": "Samsung Pay",
+      "merchant_id": "01234567890123456789",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["samsung_pay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Skrill": {
+      "provider": "Skrill",
+      "api_key": "test_1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "skrill_wallet"],
+      "test_mode": true 
+    },
+    "Square": {
+      "provider": "Square",
+      "access_token": "EAAA1234567890abcdef",
+      "location_id": "L1234567890abcdef",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "mobile_wallet"],
+      "test_mode": true 
+    },
+    "Venmo": {
+      "provider": "Venmo",
+      "client_id": "1234567890abcdef",
+      "client_secret": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["venmo", "bank_transfer"],
+      "test_mode": true 
+    },
+    "WeChat Pay": {
+      "provider": "WeChat Pay",
+      "app_id": "wx8888888888888888",
+      "mch_id": "1900000109",
+      "api_key": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "CNY",
+      "payment_methods": ["wechat_pay", "bank_transfer"],
+      "test_mode": true 
+    },
+    "Worldpay": {
+      "provider": "Worldpay",
+      "service_key": "1234567890abcdef",
+      "client_key": "1a2b3c4d5e6f7g8h9i0j1a2b3c4d5e6f7g8h9i0j",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer"],
+      "test_mode": true 
+    }
+  }
+}
+

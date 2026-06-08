@@ -1,0 +1,26 @@
+{
+    "PayPro": {
+      "active": true,
+      "provider": "PayPro",
+      "api_secret": "1234567890abcdef",
+      "api_key": "EfgHiJklMnopQrstuVwXyZ1234567890Abcd",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "currency": "USD",
+      "payment_methods": ["card", "bank_transfer", "mobile_wallet"],
+      "test":{
+        "test_mode_url": "&use-test-mode=true&secret-key=",
+        "test_cards":{
+            "fulfill_regular": "4532789918951515",
+            "fulfill_review": "4532034656356357",
+            "decline_regular": "4024007102303806",
+            "decline_review": "4532416308759668",
+            "refund_partial": "4583448015141078",
+            "refund_full": "4024007159164028",
+            "chargeback": "4916349044590772",
+            "recurring_decline_1": "4024007192413689",
+            "recurring_decline_2": "4716490256254046",
+            "recurring_decline_3": "4916744965196742"
+        }
+      }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "theme": {
+        "app_name": "My Amast",
+        "app_logo_url": "https://example.com/logo.png",
+        "app_favicon_url": "https://example.com/favicon.ico",
+        "app_theme_color": "#4A90E2",
+        "app_primary_color": "#4A90E2",
+        "app_secondary_color": "#50E3C2",
+        "app_accent_color": "#F5A623",
+        "app_background_color": "#FFFFFF",
+        "app_text_color": "#333333",
+        "app_font_family": "Arial, sans-serif"
+    }
+  }

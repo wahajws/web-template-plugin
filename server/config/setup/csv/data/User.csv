@@ -1,0 +1,2 @@
+firstName,lastName,icNumber,icTypeId,email,avatar,genderId,dateOfBirth,password,password_token,isEmailVerified,isLockedOut
+System,Administrator,1234567890,2,Admin@123.com,NULL,1,2000-01-01,MyPassword,NULL,1,0

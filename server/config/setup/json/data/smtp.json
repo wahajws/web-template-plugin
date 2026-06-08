@@ -1,0 +1,12 @@
+ { 
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "secure": false,
+        "auth": {
+            "user": "smilaa434@gmail.com",
+            "pass": "ypxn blnv rvdq rxnc",
+            "from": "Smilaa Support <smilaa434@gmail.com>"
+        }
+    }
+  }

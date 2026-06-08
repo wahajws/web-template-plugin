@@ -1,0 +1,69 @@
+{
+    "Stripe":{
+      "active":true,
+      "provider": "Stripe",
+      "webhook_secret": "whsec_1234567890abcdef",
+      "payment_methods": ["card", "bank_transfer", "alipay"],   
+      "currency": "USD",
+      "live": {
+        "keys": {
+          "sk_key": "STRIPE_LIVE_SECRET_KEY",
+          "pk_key": "STRIPE_LIVE_PUBLISHABLE_KEY"
+        }
+      },     
+      "test": {
+        "keys": {
+          "sk_key": "STRIPE_TEST_SECRET_KEY",
+          "pk_key": "STRIPE_TEST_PUBLISHABLE_KEY"
+        },
+        "test_cards":{
+            "successful_payment":{
+              "card_number":  "4242424242424242",
+              "error_code": "n/a",
+              "decline_code": "n/a"
+            },
+            "decline_generic": {
+              "card_number":  "4000000000000002",
+              "error_code": "card_declined",
+              "decline_code": "generic_decline"
+            },
+            "decline_insufficient_funds":{
+              "card_number": "4000000000009995",
+              "error_code": "card_declined",
+              "decline_code": "insufficient funds"
+            },
+            "decline_lost_card": {
+              "card_number": "4000000000009987",
+              "error_code": "card_declined",
+              "decline_code": "lost card"
+            },
+            "decline_stolen_card": {
+              "card_number": "4000000000009979",
+              "error_code": "card_declined",
+              "decline_code": "stolen card"                
+            },
+            "decline_expired_card":{
+              "card_number": "4000000000000069",
+              "error_code": "expired_card",
+              "decline_code": "n/a"                  
+            },
+            "decline_incorrect_cvc":{
+              "card_number": "4000000000000127",
+              "error_code": "incorrect_cvc",
+              "decline_code": "n/a"                 
+            },
+            "decline_processing_error":{
+              "card_number": "4000000000000119",
+              "error_code": "processing_error",
+              "decline_code": "n/a"                 
+            },
+            "decline_incorrect_number":{
+              "card_number": "4242424242424241",
+              "error_code": "incorrect_number",
+              "decline_code": "n/a"                  
+            }
+            
+        }
+      }
+    }
+}
